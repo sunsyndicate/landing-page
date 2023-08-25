@@ -20,6 +20,7 @@ body {
 }
 
 .home {
+    font-size: 24px;
     margin-right: auto;
 }
 
@@ -31,6 +32,16 @@ a {
 .hero {
     display: flex;
 
+}
+
+.hero1 {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.hero2 {
+    color: #eaeaea;
+    font-size: 18px;
 }
 
 .obstacles, .friends {
@@ -52,7 +63,7 @@ a {
 }
 
 .quote {
-    background-color: #eee;
+    background-color: #eaeaea;
 
 }
 
