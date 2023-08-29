@@ -2,26 +2,19 @@ body {
     display: flex;
     flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
-    min-height: 100vh;
+    height: 100%;
     margin: 0;
 }
 
-.header, .footer {
-    display: flex;
-    flex-direction: column;
+.header {
     background-color: #1F2937;
-    color: #F9FAF8;
-
+    
 }
 
 .links {
     display: flex;
-
-}
-
-.home {
-    font-size: 24px;
-    margin-right: auto;
+    gap: 16px;
+    padding: 16px;
 }
 
 a {
@@ -29,67 +22,32 @@ a {
     color: #F9FAF8;
 }
 
+.home {
+    margin-right: auto;
+    font-size: 24px;
+    font-weight: bold;
+}
+
 .hero {
     display: flex;
+    width: 800px;
+    margin: 75px 100px;
+}
 
+.hero-panel {
+    width: 350px;
 }
 
 .hero1 {
-    font-size: 40px;
-    font-weight: 900;
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bolder;
 }
 
 .hero2 {
-    color: #eaeaea;
-    font-size: 18px;
+   color: #f0f0f0;
 }
 
-.obstacles, .friends {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.cards {
-    display: flex;
-}
-
-.card {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-
-}
-
-.quote {
-    background-color: #eaeaea;
-
-}
-
-.call-to-action {
-    padding: 50px;
-}
-
-.blue-box {
-    background-color: #3882F6;
-    border-radius: 45%;
-    display: flex;
-    padding: 50px;
-    color: #F9FAF8;
-}
-
-.button {
-    background-color: #3882F6;
-    color: #F9FAF8;
-    border-radius: 45%;
-}
-
-.action.button {
-    border: 2px solid #F9FAF8;
-}
-
-.footer {
-    justify-content: center;
-    align-items: center;
+.spices {
+    width: 500px;
 }
