@@ -63,6 +63,7 @@ button {
     border: none;
     border-radius: 8px;
     text-align: left;
+    cursor: pointer;
 }
 
 .examples {
