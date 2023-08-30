@@ -8,34 +8,39 @@ body {
 
 .header {
     background-color: #1F2937;
-    
+    display: flex;
+    flex-direction: column;
 }
 
 .links {
     display: flex;
+    margin: 16px 12vw 0;
+    padding: 0;
     gap: 16px;
-    padding: 16px;
+    align-items: center;
 }
+
+.home {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: auto;
+}
+
 
 a {
     text-decoration: none;
     color: #F9FAF8;
 }
 
-.home {
-    margin-right: auto;
-    font-size: 24px;
-    font-weight: bold;
-}
-
 .hero {
     display: flex;
-    width: 800px;
-    margin: 75px 100px;
+    margin: 10vh 12vw;
+    gap: 5vw;
 }
 
-.hero-panel {
-    width: 350px;
+.spices {
+    width: 50%;
+    align-self: flex-start;
 }
 
 .hero1 {
@@ -46,8 +51,106 @@ a {
 
 .hero2 {
    color: #f0f0f0;
+   font-size: 18px;
 }
 
-.spices {
-    width: 500px;
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    margin: 10px 0;
+    padding: 10px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.examples {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 8vh 12vw;
+    gap: 8vh;
+}
+
+.ethereal {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.cards {
+    display: flex;
+    gap: 2vw;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 20%;
+    max-width: 250px;
+    align-items: center;
+    font-size: 18px;
+}
+
+img {
+    width: 100%;
+}
+
+.quote {
+    background-color: #ededed;
+    font-size: 36px;
+}
+
+.quote-box {
+    color: #1F2937;
+    margin: 8vh 15vw;
+}
+
+.italics {
+    font-style: italic;
+}
+
+.kitchen {
+    font-style: normal;
+    text-align: right;
+}
+
+.do-box {
+    display: flex;
+    background-color: #3882F6;
+    margin: 8vh 20vw;
+    padding: 25px 4vw;
+    border-radius: 8px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.do-panel {
+    color: #F9FAF8;
+}
+
+.do1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.do2 {
+    font-size: 16px;
+}
+
+.do-button {
+    border: 1px solid #F9FAF8;
+    border-radius: 8px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
+    padding: 20px;
+}
+
+#pixabay {
+    text-decoration: underline;
 }
